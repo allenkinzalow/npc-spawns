@@ -123,7 +123,7 @@ public class NpcSpawnsPlugin extends Plugin
 
         final NpcSpawnsPanel panel = injector.getInstance(NpcSpawnsPanel.class);
 
-        final BufferedImage icon = ImageUtil.getResourceStreamFromClass(DevToolsPlugin.class, "devtools_icon.png");
+        final BufferedImage icon = ImageUtil.getResourceStreamFromClass(getClass(), "npcspawns_icon.png");
 
         overlayManager.add(NPCSpawnsOverlay);
 
